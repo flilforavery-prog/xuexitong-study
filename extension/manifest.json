@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "学习通伴学",
+  "version": "0.1.0",
+  "description": "同页视频连播和本地题库练习",
+  "action": {"default_popup": "popup.html"},
+  "content_scripts": [{
+    "matches": ["https://*.chaoxing.com/*", "https://*.xueyinonline.com/*"],
+    "all_frames": true,
+    "js": ["player.js"]
+  }]
+}

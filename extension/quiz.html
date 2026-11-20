@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>本地题库</title>
+<body style="font: 16px/1.6 system-ui; max-width: 42rem; margin: 2rem auto; padding: 0 1rem">
+  <h1>本地题库</h1>
+  <label>导入 JSON 题库 <input id="file" type="file" accept=".json,application/json"></label>
+  <p id="status" role="status"></p>
+  <form id="quiz" hidden>
+    <fieldset id="choices"></fieldset>
+    <p><button id="check" type="submit">判题</button>
+    <button id="next" type="button" hidden>下一题</button></p>
+  </form>
+  <script type="module" src="quiz.mjs"></script>
+</body>
+</html>

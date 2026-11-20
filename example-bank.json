@@ -1,0 +1,14 @@
+[
+  {
+    "question": "SQL 中用哪个关键字筛选分组后的结果？",
+    "options": ["WHERE", "HAVING", "ORDER BY"],
+    "answer": 1,
+    "explanation": "WHERE 筛选原始行，HAVING 筛选聚合产生的分组。"
+  },
+  {
+    "question": "SQL 中哪个表达式统计所有行？",
+    "options": ["COUNT(*)", "COUNT(可空列)"],
+    "answer": 0,
+    "explanation": "COUNT(*) 统计所有行，COUNT(列) 仅统计该列非 NULL 的行。"
+  }
+]
